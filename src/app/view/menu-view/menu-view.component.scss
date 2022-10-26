@@ -37,6 +37,11 @@
                     color: lightblue;
                     pointer-events: auto;
                 }
+
+                &.selected {
+                    color: blue;
+                    text-decoration: underline;
+                }
             }
 
         }

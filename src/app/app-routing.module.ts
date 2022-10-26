@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: '',   redirectTo: '/about-me', pathMatch: 'full' }, // redirect to 
+  { path: '',   redirectTo: '/about', pathMatch: 'full' }, // redirect to 
   { path: 'about', component: AboutMeViewComponent },
   { path: 'resume', component: ResumeViewComponent },
 ];

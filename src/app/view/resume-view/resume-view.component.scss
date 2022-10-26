@@ -1,0 +1,62 @@
+.container {
+    box-shadow: 0 0 #0000,0 0 #0000, 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);
+    width: 80%;
+    padding: 20px 20px;
+
+    .profile {
+        display: flex;
+        justify-items: center;
+
+        .image-profile {
+            padding-right: 50px;
+            img {
+                height: 200px;
+                width: auto;
+            }
+        }
+
+        .info {
+            .name {
+                font-size: 30px;
+                font-weight: 600;
+            }
+            .info-detail {
+                display: flex;
+                flex-direction: column;
+                padding-top: 10px;
+
+                .information {
+                    display: flex;
+                    align-content: center;
+
+                    .info-label {
+                        line-height: 16px;
+                        font-weight: 600;
+                        padding-right: 10px;
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .expect-job {
+        padding-top: 30px;
+        
+        .title {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 20px;
+        }
+
+        .description {
+            padding-top: 20px;
+        }
+    }
+    
+}
+
+.divider {
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+}

@@ -8,16 +8,19 @@ import { Router } from '@angular/router';
 })
 export class MenuViewComponent implements OnInit {
 
+  public tabSelect = 1;
   constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
   public navigateAboutMe() {
+    this.tabSelect = 1;
     this.router.navigateByUrl('about');
   }
 
   public navigateResume() {
+    this.tabSelect = 2;
     this.router.navigateByUrl('resume');
   }
 

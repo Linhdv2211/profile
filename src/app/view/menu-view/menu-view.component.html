@@ -6,11 +6,11 @@
   <div class="title">Duong Viet Linh</div>
   <div class="head-title">
     I am a developer who is highly interested in TypeScript. My tech stack has
-    been full-stack TS such as Angular, React with TypeScript and NestJS.
+    been full-stack TS such as Angular with TypeScript.
   </div>
   <div class="menu">
-    <div (click)="navigateAboutMe()">About Me</div>
-    <div (click)="navigateResume()">Resume</div>
+    <div (click)="navigateAboutMe()" [ngClass]="{'selected': tabSelect === 1}">About Me</div>
+    <div (click)="navigateResume()" [ngClass]="{'selected': tabSelect === 2}">Resume</div>
     <div>Bio</div>
     <div>RSS Feed</div>
   </div>
