@@ -40,17 +40,60 @@
         }
     }
 
-    .expect-job {
+    .expect-job, .education, .work-experience {
         padding-top: 30px;
         
         .title {
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 600;
             line-height: 20px;
         }
 
         .description {
             padding-top: 20px;
+        }
+
+        .education-info {
+            padding-top: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            .year-study {
+                padding-right: 10rem;
+            }
+
+            .school-major {
+                .school {
+                    font-weight: 600;
+                    padding-bottom: 5px;
+                }
+
+                .marjor {
+                    padding-bottom: 5px;
+                }
+            }
+        }
+
+        .experience-info {
+            padding-top: 20px;
+            display: flex;
+            flex-direction: row;
+            
+            .year-exp {
+                padding-right: 10rem;
+            }
+
+            .info-exp {
+                .company {
+                    font-weight: 600;
+                    padding-bottom: 5px;
+                }
+
+                .position {
+                    padding-bottom: 5px;
+                }
+            }
         }
     }
     
