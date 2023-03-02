@@ -57,10 +57,9 @@
             padding-top: 20px;
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
             
             .year-study {
-                padding-right: 10rem;
+                width: 250px;
             }
 
             .school-major {
@@ -81,7 +80,7 @@
             flex-direction: row;
             
             .year-exp {
-                padding-right: 10rem;
+                width: 250px;
             }
 
             .info-exp {
