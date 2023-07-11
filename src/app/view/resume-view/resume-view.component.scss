@@ -40,7 +40,7 @@
         }
     }
 
-    .expect-job, .education, .work-experience {
+    .expect-job, .education, .work-experience, .skill-container {
         padding-top: 30px;
         
         .title {
@@ -78,6 +78,8 @@
             padding-top: 20px;
             display: flex;
             flex-direction: row;
+            border-bottom: 1px inset;
+            padding-bottom: 10px;
             
             .year-exp {
                 width: 250px;
@@ -93,6 +95,21 @@
                     padding-bottom: 5px;
                 }
             }
+        }
+        .skill-info {
+            padding-top: 20px;
+            display: flex;
+            border-bottom: 1px inset;
+            padding-bottom: 10px;
+            
+            .skill-name {
+                width: 250px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 16px;
+            }
+
+            
         }
     }
     
